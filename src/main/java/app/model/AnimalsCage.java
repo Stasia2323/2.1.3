@@ -12,7 +12,7 @@ public class AnimalsCage {
     private Animal animal1;
     private Timer timer;
 
-    public AnimalsCage(@Qualifier("dog") Animal animal1, @Qualifier("cat") Animal animal, @Qualifier("timer")Timer timer) {
+    public AnimalsCage(@Qualifier("dog") Animal animal1, @Qualifier("cat") Animal animal, Timer timer) {
         this.animal1 = animal1;
         this.animal = animal;
         this.timer = timer;
