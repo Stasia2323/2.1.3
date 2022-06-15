@@ -10,6 +10,7 @@ public class AnimalsCage {
 
     private Animal animal;
     private Animal animal1;
+    @Autowired
     private Timer timer;
 
     @Autowired
